@@ -1,0 +1,399 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin: 0%;
+}
+
+/* 
+font-family: 'Nunito', sans-serif;
+font-family: 'Euphoria Script', cursive;
+font-family: 'Barlow Condensed', sans-serif; */
+
+
+
+.section1{
+    height: 100vh;
+    width: 100%;
+    background-image: url('Home1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 13px;
+    padding: 0 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.section1 a:hover{
+    color: white;
+}
+
+.navbar{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section1 h1{
+    font-family: 'Euphoria Script', cursive; 
+    text-align: center;
+    font-size: 70px;  
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+.section2{
+    display: flex;
+    background-color: rgb(233,232,227);
+    height: 843px;
+    margin: 0px;
+}
+
+.section2 .door{
+    width: 40%;
+    margin: auto;
+    padding: 0 5% 0 15%;
+}
+.section2 .text{
+    width: 60%;
+    margin: auto;
+    padding: 0 15% 0 5%;
+    text-align: center;
+}
+.section2 img{
+    height: 552px;
+    margin: auto;
+}
+.section2 h2{
+    font-family: raleway;
+    font-size: 57px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    padding-top: 0%;
+}
+.section2 h4{
+    font-size: 17px;
+    padding: 20px;
+    font-family: nunito;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.section2 .text{
+    line-height: 24px;
+}
+
+/* 1349,683 */
+.section3{
+    display: flex;
+    margin: 0px;
+}
+.section3 img{
+    width: 33.3333%;
+    margin-right: 0px;
+}
+
+.section4{
+    background-color: #cebbad;
+    height: 80px;
+    width: 100%;
+}
+.section4{
+    padding-top: 55px;
+    text-align: center;
+}
+
+.section4 a{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: ubuntu;
+    padding-inline-end: 130px;
+    padding-inline-start: 130px;
+}
+.section4 a:hover{
+    color: black;
+}
+.btn{
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #ad7153;
+    color: #ad7153;
+    text-transform: uppercase;
+    font-family: raleway;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    color: white;
+    background-color: #ad7153;
+}
+
+.section5{
+    display: flex;
+}
+.section5{
+    display: flex;
+    background-color: rgb(233,232,227);
+    height: 843px;
+    margin: 0px;
+}
+
+.section5 .door{
+    width: 40%;
+    margin: auto;
+    padding: 0 15% 0 5%;
+}
+.section5 .text{
+    width: 60%;
+    margin: auto;
+    padding: 0 5% 0 15%;
+    text-align: center;
+}
+.section5 img{
+    height: 552px;
+    margin: auto;
+}
+.section5 h2{
+    font-family: raleway;
+    font-size: 57px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    padding-top: 0%;
+}
+.section5 h4{
+    font-size: 17px;
+    padding: 20px;
+    font-family: nunito;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.section5 .text{
+    line-height: 24px;
+}
+.section6{
+    background-color: #3c4049;
+    height: 393px;
+}
+.section6 p{
+    
+    padding-top: 108px;
+    padding-left: 220px;
+    padding-right: 220px;
+    font-family: 'Sorts Mill Goudy';
+    color: white;
+    font-weight: 450;
+    font-size: 35px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 45px;
+    text-align: center;
+}
+
+.section7{
+    height: 245px;
+}
+
+/* padding-top: 90px;
+height: 260px; */
+
+.section7{
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: 245px;
+    width: 80%;
+    margin: auto;
+
+}
+.box1 {
+    height: 245px;
+    width: 245px;
+    background-color: #f4e9e7; 
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box2 {
+    height: 245px;
+    width: 245px;
+    background-color:  #f2cec2; 
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box3 {
+    height: 245px;
+    width: 245px;
+    background-color: #cebbad; 
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box4 {
+    height: 245px;
+    width: 245px;
+    background-color: #d4dae4; 
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box4:hover, .box3:hover, .box2:hover, .box1:hover
+,.box6:hover, .box5:hover{
+    background-color: rgb(255, 212, 212);
+}
+
+.section8{
+    background-color: #eae9e4;
+    height: 140vh;
+    display: flex;   
+}
+.section8 img{
+    width: 30%;
+    padding-right: 30px;
+}
+.col2{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.s{
+    font-weight: 450;
+    font-size: 52px;
+    padding-bottom: 50px;
+}
+
+.row1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.row1 p{
+
+}
+.writing{
+    width: 55%;
+    text-align: left;
+    padding-left: 85px;
+    padding-top: 30px;
+}
+.box5{
+        height: 245px;
+        width: 245px;
+        background-color: #cebbad; 
+}
+.section8 h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: ubuntu;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.section8 p{
+    font-family: 'Sorts Mill Goudy';
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.section8 h1{
+    font-family: 'Sorts Mill Goudy';
+}
+.section8 a{
+    padding-left: 0px;
+    font-family: 'Sorts Mill Goudy';
+    color: #ad7153;
+    text-transform: none;
+    font-size: 16px;
+    border-bottom: 1px solid #ad7153;
+    font-weight: lighter;
+    padding-right: 0px;
+}
+.section8 a:hover{
+    color: rgb(218, 0, 0);
+    border-bottom: 1px solid rgb(218, 0, 0);
+}
+.box6{
+    height: 245px;
+    width: 245px;
+    background-color: #cebbad; 
+    margin-right: -75px;
+}
+
+.row2{
+    display: flex;
+    padding-top: 40px;
+    width: 80%;
+}
+.row2 .writing{
+    padding-top: 42px;
+    text-align: right;
+    margin-right: 85px;
+}
+
+.section9{
+    background-color: #3a414a;
+    height: 91vh;
+}
+
+.section9 h1{
+    font-family: 'Euphoria Script', cursive; 
+    text-align: center;
+    font-size: 70px;  
+    padding-top: 50px;
+    font-weight: lighter;
+    color: white;
+}
+.navbar2{
+    text-align: center;
+    padding-top: 30px;
+}
+.navbar2 a{
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 0px;
+    margin: 10px;
+}
+.navbar2 a:hover{
+    color: blanchedalmond;
+    border-bottom: 1px solid blanchedalmond;
+    padding: 0px;
+    margin: 10px;
+}
+
+.row{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+.c1{
+    display: flex;
+    padding-top: 90px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.b1{
+    height: 108px;
+    width: 108px;
+    background-color: rgb(241, 184, 184);
+    margin: 10px;
+}
+.b1:hover{
+    background-color: rgb(255, 255, 255);
+}
+.icons{
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.icons i:hover{
+    color: rgb(255, 217, 160);
+}
