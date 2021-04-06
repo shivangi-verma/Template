@@ -1,2 +1,2 @@
 # Template
-Web design
+Web design template
